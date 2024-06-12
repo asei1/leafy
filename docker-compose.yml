@@ -26,7 +26,7 @@ services:
     restart: on-failure
       
   leafy-front:
-    image: leesum21/leafy-fronted:03b13447adfd0c3271a4a7f886f4598f4d02e9bd
+    image: leesum21/leafy-frontend:03b13447adfd0c3271a4a7f886f4598f4d02e9bd
     environment:
       - BACKEND_HOST=leafy-backend
     ports:
